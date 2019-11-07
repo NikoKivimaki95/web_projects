@@ -1,0 +1,57 @@
+.gameHolder{
+    width: 230px;
+    height: 400px;
+    /*background: grey;*/
+    text-align: center;
+}
+
+.cell{
+    background: black;
+    /*border: white 1px solid;*/
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.container{
+    background: black;
+    width: 205px;
+    margin: 0 auto;
+}
+
+.grid{
+    margin: 0 auto;
+    float: left;
+    clear: left;
+    border: black 2px solid;
+}
+
+.row{
+    display: block;
+    float: left;
+}
+
+.cContainer{
+    clear: left;
+    float: left;
+}
+
+.pallette{
+    margin: 0 auto;
+    width: 230px;
+    height: 50px;
+}
+
+.textLabel{
+    float: left;
+}
+
+.pointCounter{
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+.emptyRow{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
